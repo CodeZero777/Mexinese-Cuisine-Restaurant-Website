@@ -1,0 +1,157 @@
+/* * {*/
+/*    border: 1px solid purple !important;*/
+/*} */
+
+body {
+    background-color: #135063;
+}
+
+.container {
+    background-color: #fff;
+/*    background-color: #fff5e8;*/
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 85px;
+}
+
+p {
+    
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+h2 {
+    font-family: 'Permanent Marker', cursive;
+}
+
+.align-left, 
+section h2 {
+    margin-left: 15%;
+    padding-left: 0px;
+    text-align: left;
+}
+
+.responsive {
+    display: flex;
+    max-width: 100%;
+}
+
+/********* HEADER ********/
+
+header {
+    font-family: 'Permanent Marker', cursive;
+    background-image: url(../images/bgbluefloor.jpg);
+    background-repeat: repeat-y;
+    background-size: 100%;
+    color: antiquewhite;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+header p, 
+aside {
+    font-family: 'Roboto', sans-serif;
+}
+
+/********* NAVIGATION **********/
+
+nav {
+    text-align: center;
+    
+}
+
+nav a {
+    
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/******** SECTION/MAIN *********/
+
+.page-title-heading {
+    font-size: 40px;
+    padding-left: 80px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.column-count {
+    column-count: 4;
+}
+
+section img {
+    width: 200px;
+    border-radius: 8px;
+}
+
+.img-size1 {
+    width: 70%;
+}
+
+.img-size2 {
+    width: 60%;
+}
+
+.img-size3 {
+    width: 65%;
+}
+
+table {
+    float: left;
+    max-width: 320px;
+}
+
+td {
+    border: 1px solid cornflowerblue;
+}
+
+
+/******** SIDEBAR *********/
+
+aside {
+    border-left-style: outset;
+    border-right-style: inset;
+    border-color: lightgray;
+    width: 40%;
+    min-width: 200px;
+    font-size: 18px;
+    max-width: 320px;
+    min-width: 200px;
+}
+
+aside li {
+    padding-top: 30px;
+}
+
+/********* FOOTER **********/
+
+footer {
+    background-color: #042931;
+/*    background-color: #3c3c3c;*/
+    color: antiquewhite;
+}
+
+footer a {
+    color: antiquewhite;
+}
+
+footer p {
+    font-size: 18px;
+}
+
+#leftside-footer {
+    width: 50%;
+}
+
+#rightside-footer {
+    width: 50%;
+}
